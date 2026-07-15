@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Social Media Feed</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<div class="container">
+
+<div class="card">
+
+<h2>Mini Social Media</h2>
+
+<button onclick="window.location='profile.html'">
+
+My Profile
+
+</button>
+
+<button onclick="logout()">
+
+Logout
+
+</button>
+
+</div>
+
+<div class="card">
+
+<h3>Create Post</h3>
+
+<textarea
+id="content"
+rows="4"
+placeholder="What's on your mind?">
+</textarea>
+
+<br>
+
+<button onclick="createPost()">
+
+Create Post
+
+</button>
+
+</div>
+
+<div id="posts">
+
+</div>
+
+</div>
+
+<script src="js/feed.js"></script>
+
+</body>
+
+</html>
